@@ -319,6 +319,13 @@ form{
     }
 }
 
+@media only screen and (max-width: 730px){
+    .clients{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 450px);
+    }
+}
+
 @media only screen and (max-width: 688px){
     .home{
         grid-template-columns: repeat(2, 2fr);
@@ -350,10 +357,6 @@ form{
     .navbar-collapse{
         background-color: rgb(2, 57, 128);
     }
-    .clients{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 300px);
-    }
 }
 
 @media only screen and (max-width: 548px) and (min-width: 496px){
@@ -377,6 +380,12 @@ form{
     h2{
         font-size: 20px;
         background-color: rgba(0, 0, 0, 0.774);
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .clients{
+        grid-template-rows: repeat(6, 300px);
     }
 }
 
