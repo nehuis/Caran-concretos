@@ -276,11 +276,6 @@ form{
 
 /*comienzan las media quare*/
 
-@media only screen and (max-width: 1200px){
-    section{
-        
-    }
-}
 
 @media only screen and (max-width: 905px) and (min-width: 689px){
     .home{
