@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none !important; 
 }
 .navbar{
     height: 150px;
@@ -45,7 +45,7 @@ body{
 }
 h1{
     text-align: center;
-    margin: auto;
+    margin-top: 20px;
     color: white;
 }
 h5{
@@ -82,27 +82,68 @@ footer i{
     margin-left: 65px;
     margin-top: 5px;
 }
-section{
-    background-color: rgba(0, 0, 0, 0.712);
-    color: white;
-    height: 190px;
-    font-size: 25px;
-    text-align: center;
-    margin: 50px;
-}
 .vw_truck{
     background-image: url(multimedia/planta4.png);
     background-size: cover;
     overflow: hidden;
     height: 700px;
 }
-p{
-    text-align: left;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    margin-top: 10px;
-    margin-left: 10px;
+.us{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    font-size: 25px;
+    margin: 20px 10px 10px 10px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+}
+.card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 550px;
+    width: 300px;
+    background-color: rgb(83, 82, 82);
+    text-align: center;
+    border: 1px solid black;
+}
+.card_img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.card_img1{
+    background-image: url(multimedia/descarga6.jpg);
+}
+.card_img2{
+    background-image: url(multimedia/camion4.jpg);
+}
+.card_img3{
+    background-image: url(multimedia/laboratorio.jpg);
+}
+.card_img4{
+    background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
+}
+.card_title{
+    font-size: 19px;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+}
+.card_desc{
+    color: white;
+    margin-top: 5px;
+}
+.card a{
+    color: white;
+    background-color: rgb(2, 57, 128);
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 110px;
+    margin-left: 85px;
+    border-radius: 10px;
 }
 .home{
     font-family: 'Heebo', sans-serif;
@@ -159,25 +200,15 @@ p{
     background-image: url(multimedia/laboratorio.jpg);
 }
 h3{
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: larger;
     font-weight: 650;
-    background-color: rgb(100, 100, 100);
 }
-p{
-    margin-top: 371px;
-    background-color: rgb(100, 100, 100);
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    border: 1px solid black;
-    height: 75px;
-    margin-left: 0px;
-    width: 600px
-}
+
 h2{
     margin: 20px 10px 10px 10px;
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: 'Heebo', sans-serif;
     text-align: center;
 }
@@ -245,10 +276,19 @@ form{
 
 /*comienzan las media quare*/
 
+@media only screen and (max-width: 1200px){
+    section{
+        
+    }
+}
+
 @media only screen and (max-width: 905px) and (min-width: 689px){
     .home{
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(2, 500px);
+    }
+    h1{
+        font-size: 30px;
     }
     h2{
         color: white;
@@ -269,6 +309,13 @@ form{
     }
     .redes_sociales{
         margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .clients{
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(3, 400px);
     }
 }
 
@@ -302,6 +349,10 @@ form{
 @media only screen and (max-width: 575px) and (min-width: 320px){
     .navbar-collapse{
         background-color: rgb(2, 57, 128);
+    }
+    .clients{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 300px);
     }
 }
 
