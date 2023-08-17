@@ -47,8 +47,13 @@ h1{
     text-align: center;
     margin-top: 20px;
     color: white;
+    font-size: 30px !important;
+}
+h4{
+    font-size: 23px !important;
 }
 h5{
+    font-size: 18px !important;
     margin-top: 10px;
 }
 h6{
@@ -56,7 +61,7 @@ h6{
     margin-bottom: 5px;
     margin-top: 5px;
     color: black;
-    font-size: larger;
+    font-size: larger !important;
 }
 footer{
     width: 100%;
@@ -79,8 +84,7 @@ footer{
 }
 footer i{
     font-size: 20px;
-    margin-left: 65px;
-    margin-top: 5px;
+    margin-left: 33px;
 }
 .vw_truck{
     background-image: url(multimedia/planta4.png);
@@ -93,6 +97,7 @@ footer i{
     color: white;
     font-size: 25px;
     margin: 20px 10px 10px 10px;
+    padding: 10px 20px
 }
 section{
     display: flex;
@@ -205,12 +210,13 @@ h3{
     font-size: larger;
     font-weight: 650;
 }
-
 h2{
     margin: 20px 10px 10px 10px;
     color: black;
-    font-family: 'Heebo', sans-serif;
     text-align: center;
+}
+h2:hover{
+    color: rgb(2, 57, 128);
 }
 .clients{
     font-family: 'Heebo', sans-serif;
@@ -252,10 +258,11 @@ h2{
 form{
     margin: 50px;
     margin-top: 20px;
-    height: 170px;
+    height: 185px;
     width: 1260px;
     border-style: solid;
     text-align: center;
+    font-weight: 600 !important;
 }
 .mapa{
     margin: 20px;
@@ -266,9 +273,8 @@ form{
     margin: 10px;
 }
 .contacto{
+    font-family: 'Heebo', sans-serif !important;
     margin: 10px;
-    font-size: 17px;
-    display: block;
 }
 .redes_sociales{
     margin: 10px;
@@ -384,15 +390,12 @@ form{
     }
 }
 
-@media only screen and (max-width: 442px){
+@media only screen and (max-width: 451px){
     .logo1{
         content-visibility: hidden;
     }
     .redes_sociales{
         margin: 45px 130px 40px 5px;
-    }
-    footer i{
-        margin-left: 60px;
     }
 }
 
@@ -400,21 +403,19 @@ form{
     .redes_sociales{
         margin: 45px 130px 40px 5px;
     }
-    footer i{
-        margin-left: 55px;
-    }
 }
 
-@media only screen and (max-width: 386px){
-    .logo1 img{
-        content-visibility: hidden;
-    }
+@media only screen and (max-width: 396px){
     .redes_sociales{
         margin-right: 120px;
         margin-top: 40px;
     }
-    footer i{
-        margin-left: 55px;
+}
+
+@media only screen and (max-width: 386px){
+    .redes_sociales{
+        margin-right: 110px;
+        margin-top: 40px;
     }
 }
 
@@ -423,9 +424,6 @@ form{
         margin-left: 120px;
         margin-right: 50px;
         margin-top: 10px;
-    }
-    footer i{
-        margin-left: 55px;
     }
 }
 
