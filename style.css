@@ -57,8 +57,7 @@ h4{
 }
 h5{
     font-size: 18px !important;
-    margin-top: 10px;
-    font-size: 18px !important;
+    margin-top: 12px;
 }
 h6{
     text-align: center;
@@ -151,7 +150,7 @@ section{
     text-decoration: none;
     padding: 10px 20px;
     width: 110px;
-    margin-left: 85px;
+    margin-left: 93px;
     border-radius: 10px;
 }
 .home{
@@ -361,6 +360,12 @@ form{
 @media only screen and (max-width: 575px) and (min-width: 320px){
     .navbar-collapse{
         background-color: rgb(2, 57, 128);
+    }
+}
+
+@media only screen and (max-width: 566px){
+    h4{
+        font-size: 21px !important;
     }
 }
 
