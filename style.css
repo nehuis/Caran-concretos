@@ -60,11 +60,11 @@ h5{
     margin-top: 12px;
 }
 h6{
+    font-size: 20px !important;
     text-align: center;
     margin-bottom: 5px;
     margin-top: 5px;
     color: black;
-    font-size: larger !important;
 }
 footer{
     width: 100%;
@@ -100,7 +100,7 @@ footer i{
     color: white;
     font-size: 25px;
     margin: 20px 10px 10px 10px;
-    padding: 10px 20px
+    padding: 10px
 }
 section{
     display: flex;
@@ -281,6 +281,18 @@ form{
 }
 .redes_sociales{
     margin: 10px;
+}
+form{
+    border: solid 2px black;
+    height: 340px;
+    text-align: left;
+    padding: 10px;
+}
+.mb-3{
+    font-size: 20px;
+}
+button{
+    margin-left: 580px;
 }
 
 /*comienzan las media quare*/
