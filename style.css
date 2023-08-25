@@ -358,6 +358,58 @@ button {
 }
 
 /*comienzan las media quare*/
+@media only screen and (max-width: 1215px) {
+  section {
+    display: grid;
+    grid-template-rows: repeat(4, 850px);
+    height: 3450px;
+  }
+  .card {
+    width: 1100px;
+    height: 800px;
+  }
+  .card_img {
+    height: 800px;
+  }
+  .card_img1 {
+    background-image: url(multimedia/descarga8.jpg);
+  }
+  .card a {
+    margin-left: 500px;
+    margin-bottom: 20px;
+  }
+  .card_title {
+    font-size: 30px;
+  }
+  .card_desc {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  section {
+    grid-template-rows: repeat(4, 750px);
+    height: 3050px;
+  }
+  .card {
+    width: 900px;
+    height: 700px;
+  }
+  .card a {
+    margin-left: 400px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  section {
+    grid-template-rows: repeat(4, 750px);
+  }
+  .card {
+    width: 700px;
+    height: 650px;
+  }
+  .card a {
+    margin-left: 295px;
+  }
+}
 @media only screen and (max-width: 905px) and (min-width: 689px) {
   .home {
     grid-template-columns: repeat(2, 2fr);
@@ -393,10 +445,27 @@ button {
     grid-template-rows: repeat(3, 400px);
   }
 }
+@media only screen and (max-width: 860px) and (min-width: 320px) {
+  .vw_truck {
+    background-position: center;
+  }
+}
 @media only screen and (max-width: 730px) {
   .clients {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 450px);
+  }
+}
+@media only screen and (max-width: 720px) {
+  section {
+    grid-template-rows: repeat(4, 700px);
+    height: 2850px;
+  }
+  .card {
+    width: 500px;
+  }
+  .card a {
+    margin-left: 195px;
   }
 }
 @media only screen and (max-width: 688px) {
@@ -443,6 +512,25 @@ button {
     margin-right: 30px;
   }
 }
+@media only screen and (max-width: 520px) {
+  section {
+    grid-template-rows: repeat(4, 550px);
+    height: 2300px;
+  }
+  .card {
+    width: 400px;
+    height: 500px;
+  }
+  .card_title {
+    font-size: 19px;
+  }
+  .card_desc {
+    font-size: 18px;
+  }
+  .card a {
+    margin-left: 150px;
+  }
+}
 @media only screen and (max-width: 496px) {
   .navegacion {
     content-visibility: hidden;
@@ -469,6 +557,23 @@ button {
     margin: 45px 130px 40px 5px;
   }
 }
+@media only screen and (max-width: 426px) {
+  section {
+    grid-template-rows: repeat(4, 550px);
+    height: 2250px;
+  }
+  .card {
+    width: 300px;
+  }
+  .card a {
+    margin-left: 95px;
+  }
+}
+@media only screen and (max-width: 409px) {
+  .vw_truck {
+    height: 750px;
+  }
+}
 @media only screen and (max-width: 406px) {
   .redes_sociales {
     margin: 45px 130px 40px 5px;
@@ -478,6 +583,11 @@ button {
   .redes_sociales {
     margin-right: 120px;
     margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 388px) {
+  .vw_truck {
+    height: 800px;
   }
 }
 @media only screen and (max-width: 386px) {
@@ -493,8 +603,35 @@ button {
     margin-top: 10px;
   }
 }
+@media only screen and (max-width: 371px) {
+  .vw_truck {
+    height: 850px;
+    background-position: center;
+  }
+}
 @media only screen and (max-width: 355px) and (min-width: 320px) {
   .redes_sociales {
     margin-left: 95px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  section {
+    grid-template-rows: repeat(4, 550px);
+  }
+  .card {
+    width: 250px;
+  }
+  .card a {
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 329px) {
+  .vw_truck {
+    height: 920px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .vw_truck {
+    height: 940px;
   }
 }/*# sourceMappingURL=style.css.map */
