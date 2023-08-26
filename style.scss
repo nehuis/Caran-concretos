@@ -641,7 +641,11 @@ form{
 
 @media only screen and (max-width: 320px){
     form{
-        height: 350px;
+        height: 400px;
         padding: 10px;
+        padding-top: 30px;
+    }
+    .boton{
+        margin-top: 50px;
     }
 }
