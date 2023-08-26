@@ -662,4 +662,10 @@ form {
   .vw_truck {
     height: 940px;
   }
+}
+@media only screen and (max-width: 320px) {
+  form {
+    height: 350px;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
