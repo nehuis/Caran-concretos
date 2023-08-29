@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
-/* font-family: 'Heebo', sans-serif; */
+/* font-family: 'Heebo', sans-serif */
 * {
   margin: 0;
   padding: 0;
@@ -103,27 +103,6 @@ footer {
 footer i {
   font-size: 20px;
   margin-left: 33px;
-}
-
-.vw_truck {
-  background-image: url(multimedia/planta4.png);
-  background-size: cover;
-  overflow: hidden;
-  height: 700px;
-}
-
-.us {
-  background-color: rgba(0, 0, 0, 0.774);
-  color: white;
-  font-size: 25px;
-  margin: 20px 10px 10px 10px;
-  padding: 10px;
-}
-
-section {
-  display: flex;
-  justify-content: space-evenly;
-  height: 650px;
 }
 
 .card {
@@ -672,4 +651,26 @@ form {
   .boton {
     margin-top: 50px;
   }
+}
+/*variables inicio*/
+/*variables final*/
+.vw_truck {
+  background-image: url(multimedia/planta4.png);
+  background-size: cover;
+  overflow: hidden;
+  height: 700px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 650px;
+}
+
+.us {
+  background-color: rgba(0, 0, 0, 0.774);
+  color: white;
+  font-size: 25px;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */

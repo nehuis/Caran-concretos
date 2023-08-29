@@ -7,8 +7,8 @@
     text-decoration: none !important 
 
 .navbar
-    height: 150px
-    background-color: rgb(2, 57, 128)
+    height: 150px !important
+    background-color: rgb(2, 57, 128) !important
 
 .img-navbar
     height: 160px
@@ -52,15 +52,13 @@ h1
 h4
     font-size: 23px !important
 
-h4
-    font-size: 23px !important
-
 h5
     font-size: 18px !important
     margin-top: 12px
 
 h6
     font-size: 20px !important
+    font-weight: 700
     text-align: center
     margin-bottom: 5px
     margin-top: 5px
@@ -88,24 +86,6 @@ footer
 footer i
     font-size: 20px
     margin-left: 33px
-
-.vw_truck
-    background-image: url(multimedia/planta4.png)
-    background-size: cover
-    overflow: hidden
-    height: 700px
-
-.us
-    background-color: rgba(0, 0, 0, 0.774)
-    color: white
-    font-size: 25px
-    margin: 20px 10px 10px 10px
-    padding: 10px
-
-section
-    display: flex
-    justify-content: space-evenly
-    height: 650px
 
 .card
     margin-top: 50px
@@ -268,9 +248,11 @@ form
     font-weight: 600 !important
 
 .mapa
-    margin: 20px
-    margin-left: 25px
+    margin: 20px 20px 40px 20px
     text-align: center
+
+iframe
+    width: 1000px
 
 .navegacion
     margin: 10px
@@ -285,17 +267,78 @@ form
 form
     border: solid 2px black
     height: 340px
+    width: auto
     text-align: left
     padding: 10px
 
 .mb-3
     font-size: 20px
 
-button
-    margin-left: 580px
+.boton
+    text-align: center
 
 
 /*comienzan las media quare*/
+
+@media only screen and (max-width: 1215px)
+    section
+        display: grid
+        grid-template-rows: repeat(4, 850px)
+        height: 3450px
+    
+    .card
+        width: 1100px
+        height: 800px
+    
+    .card_img
+        height: 800px
+    
+    .card_img1
+        background-image: url(multimedia/descarga8.jpg)
+    
+    .card a
+        margin-left: 500px
+        margin-bottom: 20px
+    
+    .card_title
+        font-size: 30px
+    
+    .card_desc
+        font-size: 20px
+    
+
+
+@media only screen and (max-width: 1120px)
+    section
+        grid-template-rows: repeat(4, 750px)
+        height: 3050px
+    
+    .card
+        width: 900px
+        height: 700px
+    
+    .card a
+        margin-left: 400px
+    
+
+
+@media only screen and (max-width: 1080px)
+    iframe
+        width: 700px
+    
+
+
+@media only screen and (max-width: 920px)
+    section
+        grid-template-rows: repeat(4, 750px)
+    
+    .card
+        width: 700px
+        height: 650px
+    
+    .card a
+        margin-left: 295px
+    
 
 
 @media only screen and (max-width: 905px) and (min-width: 689px)
@@ -335,10 +378,39 @@ button
     
 
 
+@media only screen and (max-width: 860px) and (min-width: 320px)
+    .vw_truck
+        background-position: center
+    
+
+
+@media only screen and (max-width: 800px)
+    iframe
+        width: 550px
+    
+
+
+@media only screen and (max-width: 780px)
+    
+
+
 @media only screen and (max-width: 730px)
     .clients
         grid-template-columns: repeat(1, 1fr)
         grid-template-rows: repeat(6, 450px)
+    
+
+
+@media only screen and (max-width: 720px)
+    section
+        grid-template-rows: repeat(4, 700px)
+        height: 2850px
+    
+    .card
+        width: 500px
+    
+    .card a
+        margin-left: 195px
     
 
 
@@ -356,6 +428,12 @@ button
     h2
         background-color: rgba(0, 0, 0, 0.774)
         color: white
+    
+
+
+@media only screen and (max-width: 666px)
+    iframe
+        width: 450px
     
 
 
@@ -381,6 +459,19 @@ button
     
 
 
+@media only screen and (max-width: 560px)
+    .mapa
+        content-visibility: hidden
+    
+    h6
+        content-visibility: hidden
+    
+    form
+        margin: 10px
+        margin-top: 50px
+    
+
+
 @media only screen and (max-width: 548px) and (min-width: 496px)
     .navegacion
         content-visibility: hidden
@@ -388,6 +479,26 @@ button
     .redes_sociales
         margin-top: 45px
         margin-right: 30px
+    
+
+
+@media only screen and (max-width: 520px)
+    section
+        grid-template-rows: repeat(4, 550px)
+        height: 2300px
+    
+    .card
+        width: 400px
+        height: 500px
+    
+    .card_title
+        font-size: 19px
+    
+    .card_desc
+        font-size: 18px
+    
+    .card a
+        margin-left: 150px
     
 
 
@@ -420,6 +531,25 @@ button
     
 
 
+@media only screen and (max-width: 426px)
+    section
+        grid-template-rows: repeat(4, 550px)
+        height: 2250px
+    
+    .card
+        width: 300px
+    
+    .card a
+        margin-left: 95px
+    
+
+
+@media only screen and (max-width: 409px)
+    .vw_truck
+        height: 750px
+    
+
+
 @media only screen and (max-width: 406px)
     .redes_sociales
         margin: 45px 130px 40px 5px
@@ -430,6 +560,12 @@ button
     .redes_sociales
         margin-right: 120px
         margin-top: 40px
+    
+
+
+@media only screen and (max-width: 388px)
+    .vw_truck
+        height: 800px
     
 
 
@@ -448,7 +584,51 @@ button
     
 
 
+@media only screen and (max-width: 371px)
+    .vw_truck
+        height: 850px
+        background-position: center
+    
+
+
 @media only screen and (max-width: 355px) and (min-width: 320px)
     .redes_sociales
         margin-left: 95px
     
+
+
+@media only screen and (max-width: 340px)
+    section
+        grid-template-rows: repeat(4, 550px)
+    
+    .card
+        width: 250px
+    
+    .card a
+        margin-left: 70px
+    
+
+
+@media only screen and (max-width: 329px)
+    .vw_truck
+        height: 920px
+    
+
+
+@media only screen and (max-width: 321px)
+    .vw_truck
+        height: 940px
+    
+
+
+@media only screen and (max-width: 320px)
+    form
+        height: 400px
+        padding: 10px
+        padding-top: 30px
+    
+    .boton
+        margin-top: 50px
+    
+
+@import "_nosotros"
