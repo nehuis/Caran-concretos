@@ -1,0 +1,20 @@
+.vw_truck {
+  background-image: url(multimedia/planta4.png);
+  background-size: cover;
+  overflow: hidden;
+  height: 700px;
+}
+
+.us {
+  background-color: rgba(0, 0, 0, 0.774);
+  color: white;
+  font-size: 25px;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 650px;
+}/*# sourceMappingURL=nosotros.css.map */

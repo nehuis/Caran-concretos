@@ -87,24 +87,6 @@ footer i{
     font-size: 20px;
     margin-left: 33px;
 }
-.vw_truck{
-    background-image: url(multimedia/planta4.png);
-    background-size: cover;
-    overflow: hidden;
-    height: 700px;
-}
-.us{
-    background-color: rgba(0, 0, 0, 0.774);
-    color: white;
-    font-size: 25px;
-    margin: 20px 10px 10px 10px;
-    padding: 10px
-}
-section{
-    display: flex;
-    justify-content: space-evenly;
-    height: 650px;
-}
 .card{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -560,7 +542,7 @@ form{
 
 @media only screen and (max-width: 409px){
     .vw_truck{
-        height: 750px;
+        height: 760px;
     }
 }
 
@@ -644,4 +626,8 @@ form{
     .boton{
         margin-top: 50px;
     }
+    .us{
+      margin-bottom: 20px;
+    }
 }
+@import "_nosotros"

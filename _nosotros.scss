@@ -1,0 +1,21 @@
+/*variables inicio*/
+$color1: white;
+/*variables final*/
+.vw_truck{
+    background-image: url(multimedia/planta4.png);
+    background-size: cover;
+    overflow: hidden;
+    height: 700px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+}
+.us{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: $color1;
+    font-size: 25px;
+    margin: 20px 10px 10px 10px;
+    padding: 10px
+}
