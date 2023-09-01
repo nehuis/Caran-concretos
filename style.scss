@@ -6,26 +6,34 @@
     box-sizing: border-box;
     text-decoration: none !important; 
 }
-.navbar{
-    height: 150px !important;
-    background-color: rgb(2, 57, 128) !important;
-}
-.img-navbar{
-    height: 160px;
-}
-.nav-link{
-    color: white !important;
-}
-.nav-link:hover{
-    color: black !important;
-}
-.nav_bar{
-    font-size: 30px;
-    margin: 30px;
-    color: white
-}
-.nav_bar:hover{
-    cursor: pointer;
+header{
+
+    .navbar{
+        height: 150px !important;
+        background-color: rgb(2, 57, 128) !important;
+
+        .img-navbar{
+            height: 160px;
+        }
+
+        .nav-link{
+            color: white !important;
+        }
+
+        .nav-link:hover{
+            color: black !important;
+        }
+    }
+
+    .nav_bar{
+        font-size: 30px;
+        margin: 30px;
+        color: white
+    }
+
+    .nav_bar:hover{
+        cursor: pointer;
+    }
 }
 nav a{
     font-family: 'Heebo', sans-serif;
@@ -67,71 +75,37 @@ h6{
 footer{
     width: 100%;
     height: 100%;
-}
-.container__footer{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: auto;
-    margin: auto;
-    height: 170px;
-    background-color: rgb(2, 57, 128);
-    color: rgb(255, 255, 255);
-    font-family: 'Heebo', sans-serif;
-}
-.logo1 img{
-    height: 160px;
-    margin-bottom: 10px;
+
+    .container__footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: auto;
+        margin: auto;
+        height: 170px;
+        background-color: rgb(2, 57, 128);
+        color: rgb(255, 255, 255);
+        font-family: 'Heebo', sans-serif;
+
+        .logo1 img{
+            height: 160px;
+            margin-bottom: 10px;
+        }
+    }
 }
 footer i{
     font-size: 20px;
     margin-left: 33px;
 }
-.card{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 550px;
-    width: 300px;
-    background-color: rgb(83, 82, 82);
-    text-align: center;
-    border: 1px solid black;
+.navegacion{
+    margin: 10px;
 }
-.card_img{
-    height: 300px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+.contacto{
+    font-family: 'Heebo', sans-serif !important;
+    margin: 10px;
 }
-.card_img1{
-    background-image: url(multimedia/descarga6.jpg);
-}
-.card_img2{
-    background-image: url(multimedia/camion4.jpg);
-}
-.card_img3{
-    background-image: url(multimedia/laboratorio.jpg);
-}
-.card_img4{
-    background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
-}
-.card_title{
-    font-size: 19px;
-    padding: 10px;
-    color: white;
-    background-color: #333;
-}
-.card_desc{
-    color: white;
-    margin-top: 5px;
-}
-.card a{
-    color: white;
-    background-color: rgb(2, 57, 128);
-    text-decoration: none;
-    padding: 10px 20px;
-    width: 110px;
-    margin-left: 93px;
-    border-radius: 10px;
+.redes_sociales{
+    margin: 10px;
 }
 .home{
     font-family: 'Heebo', sans-serif;
@@ -140,52 +114,27 @@ footer i{
     height: 1000px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-}
-.foto{
-    border: 1px solid #000;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    font-size: 20px;
-}
-.img1{
-    background-image: url(multimedia/planta.jpg);
-}
-.img2{
-    background-image: url(multimedia/descarga2.jpg);
-}
-.img3{
-    background-image: url(multimedia/movimiento\ de\ suelo.jpg);
-}
-.img4{
-    background-image: url(multimedia/planta4.png)
-}
-.servicios{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 400px);
-    padding: 15px;
-    grid-gap: 115px;
-    margin-top: 30px;
-    margin-bottom: 130px;
-}
-.fot{
-    border: 1px solid #000;
-    background-position: center;
-    background-size: cover;
-}
-.fot1{
-    background-image: url(multimedia/descarga6.jpg);
-}
-.fot2{
-    background-image: url(multimedia/camion\ 3.jpg);
-}
-.fot3{
-    background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
-}
-.fot4{
-    background-image: url(multimedia/laboratorio.jpg);
+
+    .foto{
+        border: 1px solid #000;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .img1{
+        background-image: url(multimedia/planta.jpg);
+    }
+    .img2{
+        background-image: url(multimedia/descarga2.jpg);
+    }
+    .img3{
+        background-image: url(multimedia/movimiento\ de\ suelo.jpg);
+    }
+    .img4{
+        background-image: url(multimedia/planta4.png)
+    }
 }
 h3{
     color: white;
@@ -209,43 +158,45 @@ h2:hover{
     grid-template-rows: repeat(2, 300px);
     grid-gap: 15px;
     padding: 15px;
-}
-.item{
-    border: 1px solid #000;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    transition: all 0.3s;
-}
-.item:hover{
-    transform: scale(1.02);
-}
-.item1{
-    background-image: url(multimedia/C1.png);
-}
-.item2{
-    background-image: url(multimedia/C2.png);
-}
-.item3{
-    background-image: url(multimedia/C3.png);
-}
-.item4{
-    background-image: url(multimedia/C4.png);
-}
-.item5{
-    background-image: url(multimedia/C5.png);
-}
-.item6{
-    background-image: url(multimedia/C6.png);
+
+    .item{
+        border: 1px solid #000;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    .item:hover{
+        transform: scale(1.02);
+    }
+    .item1{
+        background-image: url(multimedia/C1.png);
+    }
+    .item2{
+        background-image: url(multimedia/C2.png);
+    }
+    .item3{
+        background-image: url(multimedia/C3.png);
+    }
+    .item4{
+        background-image: url(multimedia/C4.png);
+    }
+    .item5{
+        background-image: url(multimedia/C5.png);
+    }
+    .item6{
+        background-image: url(multimedia/C6.png);
+    }
 }
 form{
     margin: 50px;
     margin-top: 20px;
-    height: 185px;
-    width: 1260px;
-    border-style: solid;
-    text-align: center;
     font-weight: 600 !important;
+    border: solid 2px black;
+    height: 340px;
+    width: auto;
+    text-align: left;
+    padding: 10px;
 }
 .mapa{
     margin: 20px 20px 40px 20px;
@@ -253,23 +204,6 @@ form{
 }
 iframe{
     width: 1000px;
-}
-.navegacion{
-    margin: 10px;
-}
-.contacto{
-    font-family: 'Heebo', sans-serif !important;
-    margin: 10px;
-}
-.redes_sociales{
-    margin: 10px;
-}
-form{
-    border: solid 2px black;
-    height: 340px;
-    width: auto;
-    text-align: left;
-    padding: 10px;
 }
 .mb-3{
     font-size: 20px;
@@ -285,26 +219,29 @@ form{
         display: grid;
         grid-template-rows: repeat(4, 850px);
         height: 3450px;
-    }
-    .card{
-        width: 1100px;
-        height: 800px;
-    }
-    .card_img{
-        height: 800px;
-    }
-    .card_img1{
-        background-image: url(multimedia/descarga8.jpg);
+
+        .card{
+            width: 1100px;
+            height: 800px;
+
+            .card_img{
+                height: 800px;
+            }
+            .card_img1{
+                background-image: url(multimedia/descarga8.jpg);
+            }
+
+            .card_title{
+                font-size: 30px;
+            }
+            .card_desc{
+                font-size: 20px;
+            }
+        }
     }
     .card a{
         margin-left: 500px;
         margin-bottom: 20px;
-    }
-    .card_title{
-        font-size: 30px;
-    }
-    .card_desc{
-        font-size: 20px;
     }
 }
 
@@ -437,9 +374,10 @@ form{
     .home{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 200px);
-    }
-    .img3{
-        background-image: url(multimedia/obra.jpg);
+
+        .img3{
+            background-image: url(multimedia/obra.jpg);
+        }
     }
 }
 
@@ -626,8 +564,6 @@ form{
     .boton{
         margin-top: 50px;
     }
-    .us{
-      margin-bottom: 20px;
-    }
 }
-@import "_nosotros"
+@import "_nosotros";
+@import "_servicios";
