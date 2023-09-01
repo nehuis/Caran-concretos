@@ -11,7 +11,7 @@ header .navbar {
   height: 150px !important;
   background-color: rgb(2, 57, 128) !important;
 }
-header .img-navbar {
+header .navbar .img-navbar {
   height: 160px;
 }
 header .nav-link {
@@ -124,43 +124,40 @@ footer a:hover {
   text-align: center;
   border: 1px solid black;
 }
-.card .card_img {
+
+.card_img {
   height: 300px;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
-.card .card_title {
+
+.card_title {
   font-size: 19px;
   padding: 10px;
   color: white;
   background-color: #333;
 }
-.card .card_desc {
+
+.card_desc {
   color: white;
   margin-top: 5px;
 }
-.card .card_img1 {
+
+.card_img1 {
   background-image: url(multimedia/descarga6.jpg);
 }
-.card .card_img2 {
+
+.card_img2 {
   background-image: url(multimedia/camion4.jpg);
 }
-.card .card_img3 {
+
+.card_img3 {
   background-image: url(multimedia/laboratorio.jpg);
 }
-.card .card_img4 {
-  background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
-}
 
-.card a {
-  color: white;
-  background-color: rgb(2, 57, 128);
-  text-decoration: none;
-  padding: 10px 20px;
-  width: 110px;
-  margin-left: 93px;
-  border-radius: 10px;
+.card_img4 {
+  background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
 }
 
 .home {
@@ -189,6 +186,39 @@ footer a:hover {
 }
 .home .img4 {
   background-image: url(multimedia/planta4.png);
+}
+
+.servicios {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 400px);
+  padding: 15px;
+  grid-gap: 115px;
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+
+.fot {
+  border: 1px solid #000;
+  background-position: center;
+  background-size: cover;
+}
+
+.fot1 {
+  background-image: url(multimedia/descarga6.jpg);
+}
+
+.fot2 {
+  background-image: url(multimedia/camion\ 3.jpg);
+}
+
+.fot3 {
+  background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
+}
+
+.fot4 {
+  background-image: url(multimedia/laboratorio.jpg);
 }
 
 h3 {
@@ -611,4 +641,6 @@ section {
   font-size: 25px;
   margin: 20px 10px 10px 10px;
   padding: 10px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
