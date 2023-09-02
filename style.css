@@ -7,44 +7,19 @@
   text-decoration: none !important;
 }
 
-.navbar {
+header .navbar {
   height: 150px !important;
+  font-size: 20px;
   background-color: rgb(2, 57, 128) !important;
 }
-
-.img-navbar {
+header .navbar .img-navbar {
   height: 160px;
 }
-
-.nav-link {
+header .nav-link {
   color: white !important;
 }
-
-.nav-link:hover {
+header .nav-link:hover {
   color: black !important;
-}
-
-.nav_bar {
-  font-size: 30px;
-  margin: 30px;
-  color: white;
-}
-
-.nav_bar:hover {
-  cursor: pointer;
-}
-
-nav a {
-  font-family: "Heebo", sans-serif;
-  padding-right: 10px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  justify-content: space-between;
-  font-size: 18px;
-}
-
-nav a:hover {
-  color: rgb(0, 0, 0);
 }
 
 body {
@@ -82,8 +57,7 @@ footer {
   width: 100%;
   height: 100%;
 }
-
-.container__footer {
+footer .container__footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -94,15 +68,38 @@ footer {
   color: rgb(255, 255, 255);
   font-family: "Heebo", sans-serif;
 }
-
-.logo1 img {
+footer .container__footer .logo1 img {
   height: 160px;
   margin-bottom: 10px;
+}
+footer nav a {
+  font-family: "Heebo", sans-serif;
+  padding-right: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  justify-content: space-between;
+  font-size: 18px;
+}
+footer nav a:hover {
+  color: rgb(0, 0, 0);
 }
 
 footer i {
   font-size: 20px;
   margin-left: 33px;
+}
+
+.navegacion {
+  margin: 10px;
+}
+
+.contacto {
+  font-family: "Heebo", sans-serif !important;
+  margin: 10px;
+}
+
+.redes_sociales {
+  margin: 10px;
 }
 
 .vw_truck {
@@ -111,8 +108,7 @@ footer i {
   overflow: hidden;
   height: 700px;
 }
-
-.us {
+.vw_truck .us {
   background-color: rgba(0, 0, 0, 0.774);
   color: white;
   font-size: 25px;
@@ -189,62 +185,24 @@ section {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
 }
-
-.foto {
+.home .foto {
   border: 1px solid #000;
   background-position: center;
   background-size: cover;
   text-align: center;
   font-size: 20px;
 }
-
-.img1 {
+.home .img1 {
   background-image: url(multimedia/planta.jpg);
 }
-
-.img2 {
+.home .img2 {
   background-image: url(multimedia/descarga2.jpg);
 }
-
-.img3 {
+.home .img3 {
   background-image: url(multimedia/movimiento\ de\ suelo.jpg);
 }
-
-.img4 {
+.home .img4 {
   background-image: url(multimedia/planta4.png);
-}
-
-.servicios {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(2, 400px);
-  padding: 15px;
-  grid-gap: 115px;
-  margin-top: 30px;
-  margin-bottom: 130px;
-}
-
-.fot {
-  border: 1px solid #000;
-  background-position: center;
-  background-size: cover;
-}
-
-.fot1 {
-  background-image: url(multimedia/descarga6.jpg);
-}
-
-.fot2 {
-  background-image: url(multimedia/camion\ 3.jpg);
-}
-
-.fot3 {
-  background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
-}
-
-.fot4 {
-  background-image: url(multimedia/laboratorio.jpg);
 }
 
 h3 {
@@ -273,51 +231,44 @@ h2:hover {
   grid-gap: 15px;
   padding: 15px;
 }
-
-.item {
+.clients .item {
   border: 1px solid #000;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
   transition: all 0.3s;
 }
-
-.item:hover {
+.clients .item:hover {
   transform: scale(1.02);
 }
-
-.item1 {
+.clients .item1 {
   background-image: url(multimedia/C1.png);
 }
-
-.item2 {
+.clients .item2 {
   background-image: url(multimedia/C2.png);
 }
-
-.item3 {
+.clients .item3 {
   background-image: url(multimedia/C3.png);
 }
-
-.item4 {
+.clients .item4 {
   background-image: url(multimedia/C4.png);
 }
-
-.item5 {
+.clients .item5 {
   background-image: url(multimedia/C5.png);
 }
-
-.item6 {
+.clients .item6 {
   background-image: url(multimedia/C6.png);
 }
 
 form {
   margin: 50px;
   margin-top: 20px;
-  height: 185px;
-  width: 1260px;
-  border-style: solid;
-  text-align: center;
-  font-weight: 600 !important;
+  border: solid 2px black;
+  height: 340px;
+  width: auto;
+  text-align: left;
+  padding: 10px;
+  font-weight: 600;
 }
 
 .mapa {
@@ -327,27 +278,6 @@ form {
 
 iframe {
   width: 1000px;
-}
-
-.navegacion {
-  margin: 10px;
-}
-
-.contacto {
-  font-family: "Heebo", sans-serif !important;
-  margin: 10px;
-}
-
-.redes_sociales {
-  margin: 10px;
-}
-
-form {
-  border: solid 2px black;
-  height: 340px;
-  width: auto;
-  text-align: left;
-  padding: 10px;
 }
 
 .mb-3 {
@@ -421,6 +351,9 @@ form {
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 500px);
   }
+  .home .img3 {
+    background-position: bottom;
+  }
   h1 {
     font-size: 30px;
   }
@@ -428,20 +361,17 @@ form {
     color: white;
     background-color: rgba(0, 0, 0, 0.774);
   }
-  .img3 {
-    background-position: bottom;
-  }
   footer {
     height: 100%;
     width: 100%;
   }
-  .contacto {
+  footer .contacto {
     content-visibility: hidden;
   }
-  .navegacion {
+  footer .navegacion {
     margin-left: 80px;
   }
-  .redes_sociales {
+  footer .redes_sociales {
     margin-right: 10px;
   }
 }
@@ -505,7 +435,7 @@ form {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 200px);
   }
-  .img3 {
+  .home .img3 {
     background-image: url(multimedia/obra.jpg);
   }
 }
