@@ -15,10 +15,10 @@ header .navbar {
 header .navbar .img-navbar {
   height: 160px;
 }
-header .nav-link {
+header .navbar .nav-link {
   color: white !important;
 }
-header .nav-link:hover {
+header .navbar .nav-link:hover {
   color: black !important;
 }
 
@@ -27,24 +27,13 @@ body {
   background-color: rgb(141, 141, 141);
   font-family: "Heebo", sans-serif;
 }
-
-h1 {
+body h1 {
   text-align: center;
   margin-top: 20px;
   color: white;
   font-size: 30px !important;
 }
-
-h4 {
-  font-size: 23px !important;
-}
-
-h5 {
-  font-size: 18px !important;
-  margin-top: 12px;
-}
-
-h6 {
+body h6 {
   font-size: 20px !important;
   font-weight: 700;
   text-align: center;
@@ -71,6 +60,13 @@ footer .container__footer {
 footer .container__footer .logo1 img {
   height: 160px;
   margin-bottom: 10px;
+}
+footer .container__footer h4 {
+  font-size: 23px !important;
+}
+footer .container__footer h5 {
+  font-size: 18px !important;
+  margin-top: 12px;
 }
 footer nav a {
   font-family: "Heebo", sans-serif;

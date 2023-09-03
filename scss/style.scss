@@ -16,41 +16,36 @@ header{
         .img-navbar{
             height: 160px;
         }
-    }
 
-    .nav-link{
-        color: white !important;
-    }
+        .nav-link{
+            color: white !important;
+        }
 
-    .nav-link:hover{
-        color: black !important;
+        .nav-link:hover{
+            color: black !important;
+        }
     }
 }
 body{
     margin: 0;
     background-color: rgb(141, 141, 141);
     font-family: 'Heebo', sans-serif;
-}
-h1{
-    text-align: center;
-    margin-top: 20px;
-    color: white;
-    font-size: 30px !important;
-}
-h4{
-    font-size: 23px !important;
-}
-h5{
-    font-size: 18px !important;
-    margin-top: 12px;
-}
-h6{
-    font-size: 20px !important;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    color: black;
+
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-size: 30px !important;
+    }
+
+    h6{
+        font-size: 20px !important;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        color: black;
+    }
 }
 footer{
     width: 100%;
@@ -70,6 +65,15 @@ footer{
         .logo1 img{
             height: 160px;
             margin-bottom: 10px;
+        }
+
+        h4{
+            font-size: 23px !important;
+        }
+
+        h5{
+            font-size: 18px !important;
+            margin-top: 12px;
         }
     }
 
