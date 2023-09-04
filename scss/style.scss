@@ -46,10 +46,40 @@ body{
         margin-top: 5px;
         color: black;
     }
+
+    h3{
+        color: white;
+        text-align: center;
+        font-size: larger;
+        font-weight: 650;
+    }
+
+    h2{
+        margin: 20px 10px 10px 10px;
+        color: black;
+        text-align: center;
+    }
+
+    h2:hover{
+        color: rgb(2, 57, 128);
+    }
 }
 footer{
     width: 100%;
     height: 100%;
+
+    nav a{
+        font-family: 'Heebo', sans-serif;
+        padding-right: 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    nav a:hover{
+        color: rgb(0, 0, 0);
+    }
 
     .container__footer{
         display: flex;
@@ -76,25 +106,7 @@ footer{
             margin-top: 12px;
         }
     }
-
-    nav a{
-        font-family: 'Heebo', sans-serif;
-        padding-right: 10px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        justify-content: space-between;
-        font-size: 18px;
-    }
-
-    nav a:hover{
-        color: rgb(0, 0, 0);
-    }
 }
-footer i{
-    font-size: 20px;
-    margin-left: 33px;
-}
-
 .navegacion{
     margin: 10px;
 }
@@ -105,8 +117,12 @@ footer i{
 .redes_sociales{
     margin: 10px;
 }
+footer i{
+    font-size: 20px;
+    margin-left: 33px;
+}
 .vw_truck{
-    background-image: url(multimedia/planta4.png);
+    background-image: url(../multimedia/planta4.png);
     background-size: cover;
     overflow: hidden;
     height: 700px;
@@ -140,16 +156,16 @@ section{
     background-position: center;
 }
 .card_img1{
-    background-image: url(multimedia/descarga6.jpg);
+    background-image: url(../multimedia/descarga6.jpg);
 }
 .card_img2{
-    background-image: url(multimedia/camion4.jpg);
+    background-image: url(../multimedia/camion4.jpg);
 }
 .card_img3{
-    background-image: url(multimedia/laboratorio.jpg);
+    background-image: url(../multimedia/laboratorio.jpg);
 }
 .card_img4{
-    background-image: url(multimedia/movimiento\ de\ suelo\ 2.jpg);
+    background-image: url(../multimedia/movimiento\ de\ suelo\ 2.jpg);
 }
 .card_title{
     font-size: 19px;
@@ -187,31 +203,17 @@ section{
     }
 
     .img1{
-        background-image: url(multimedia/planta.jpg);
+        background-image: url(../multimedia/planta.jpg);
     }
     .img2{
-        background-image: url(multimedia/descarga2.jpg);
+        background-image: url(../multimedia/descarga2.jpg);
     }
     .img3{
-        background-image: url(multimedia/movimiento\ de\ suelo.jpg);
+        background-image: url(../multimedia/movimiento\ de\ suelo.jpg);
     }
     .img4{
-        background-image: url(multimedia/planta4.png)
+        background-image: url(../multimedia/planta4.png)
     }
-}
-h3{
-    color: white;
-    text-align: center;
-    font-size: larger;
-    font-weight: 650;
-}
-h2{
-    margin: 20px 10px 10px 10px;
-    color: black;
-    text-align: center;
-}
-h2:hover{
-    color: rgb(2, 57, 128);
 }
 .clients{
     font-family: 'Heebo', sans-serif;
@@ -235,22 +237,22 @@ h2:hover{
     }
 
     .item1{
-        background-image: url(multimedia/C1.png);
+        background-image: url(../multimedia/C1.png);
     }
     .item2{
-        background-image: url(multimedia/C2.png);
+        background-image: url(../multimedia/C2.png);
     }
     .item3{
-        background-image: url(multimedia/C3.png);
+        background-image: url(../multimedia/C3.png);
     }
     .item4{
-        background-image: url(multimedia/C4.png);
+        background-image: url(../multimedia/C4.png);
     }
     .item5{
-        background-image: url(multimedia/C5.png);
+        background-image: url(../multimedia/C5.png);
     }
     .item6{
-        background-image: url(multimedia/C6.png);
+        background-image: url(../multimedia/C6.png);
     }
 }
 form{
@@ -293,7 +295,7 @@ iframe{
         height: 800px;
     }
     .card_img1{
-        background-image: url(multimedia/descarga8.jpg);
+        background-image: url(../multimedia/descarga8.jpg);
     }
     .card a{
         margin-left: 500px;
@@ -345,16 +347,17 @@ iframe{
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(2, 500px);
 
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.774);
+        }
+
         .img3{
             background-position: bottom;
         }
-    }
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        color: white;
-        background-color: rgba(0, 0, 0, 0.774);
     }
     footer{
         height: 100%;
@@ -416,19 +419,21 @@ iframe{
 }
 
 @media only screen and (max-width: 688px){
-    .home{
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(2, 500px);
-    }
     .contacto{
         content-visibility: hidden;
     }
     .navegacion{
         margin-left: 80px;
     }
-    h2{
-        background-color: rgba(0, 0, 0, 0.774);
-        color: white;
+
+    .home{
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 500px);
+
+        h2{
+            background-color: rgba(0, 0, 0, 0.774);
+            color: white;
+        }
     }
 }
 
@@ -444,7 +449,7 @@ iframe{
         grid-template-rows: repeat(1, 200px);
 
         .img3{
-            background-image: url(multimedia/obra.jpg);
+            background-image: url(../multimedia/obra.jpg);
         }
     }
 }
