@@ -435,6 +435,7 @@ iframe {
 @media only screen and (max-width: 575px) and (min-width: 320px) {
   .navbar-collapse {
     background-color: rgb(2, 57, 128);
+    z-index: 2;
   }
 }
 @media only screen and (max-width: 566px) {
