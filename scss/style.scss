@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+/* font-family: 'Heebo', sans-serif; */
+.navegacion{
+    margin: 10px;
+}
+.contacto{
+    font-family: 'Heebo', sans-serif !important;
+    margin: 10px;
+}
+.redes_sociales{
+    margin: 10px;
+}
+footer i{
+    font-size: 20px;
+    margin-left: 33px;
+}
+
+/*pages inicio*/
+@import "./pages/home";
+@import "./pages/nosotros";
+@import "./pages/servicios";
+@import "./pages/clientes";
+@import "./pages/contacto";
+/*pages fin*/
+
+/*layout inicio*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/body";
+/*layout fin*/
+
+/*base inicio*/
+@import "./base/reset";
+/*base fin*/
+
+/*comienzan las media quaries*/
+@import "./view/mediaquerie";
+/*terminan las media quaries*/

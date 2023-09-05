@@ -1,0 +1,40 @@
+.clients{
+    font-family: 'Heebo', sans-serif;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 15px;
+    padding: 15px;
+
+    .item{
+        border: 1px solid #000;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+
+    .item:hover{
+        transform: scale(1.02);
+    }
+
+    .item1{
+        background-image: url(../multimedia/C1.png);
+    }
+    .item2{
+        background-image: url(../multimedia/C2.png);
+    }
+    .item3{
+        background-image: url(../multimedia/C3.png);
+    }
+    .item4{
+        background-image: url(../multimedia/C4.png);
+    }
+    .item5{
+        background-image: url(../multimedia/C5.png);
+    }
+    .item6{
+        background-image: url(../multimedia/C6.png);
+    }
+}

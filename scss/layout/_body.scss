@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: rgb(141, 141, 141);
+    font-family: 'Heebo', sans-serif;
+
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-size: 30px !important;
+    }
+
+    h6{
+        font-size: 20px !important;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        color: black;
+    }
+
+    h3{
+        color: white;
+        text-align: center;
+        font-size: larger;
+        font-weight: 650;
+    }
+
+    h2{
+        margin: 20px 10px 10px 10px;
+        color: black;
+        text-align: center;
+    }
+
+    h2:hover{
+        color: rgb(2, 57, 128);
+    }
+}
