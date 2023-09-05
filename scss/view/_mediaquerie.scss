@@ -1,3 +1,15 @@
+@media only screen and (max-width:1440px) and (min-width:768px){
+    .about{
+        content-visibility: hidden;
+        background-image: none;
+        border: none;
+        height: 0px;
+    }
+    .us{
+        content-visibility: hidden;
+    }
+}
+
 @media only screen and (max-width: 1215px){
     section{
         display: grid;
@@ -237,6 +249,13 @@
     }
 }
 
+@media only screen and (max-width: 480px){
+    .about{
+        background-position: left;
+        height: 570px;
+    }
+}
+
 @media only screen and (max-width: 460px){
     .clients{
         grid-template-rows: repeat(6, 300px);
@@ -262,6 +281,9 @@
     }
     .card a{
         margin-left: 95px;
+    }
+    .about{
+        background-position: center;
     }
 }
 
