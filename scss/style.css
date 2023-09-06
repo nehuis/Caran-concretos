@@ -60,7 +60,7 @@ footer i {
 
 .about {
   border: 2px solid black;
-  background-image: url(multimedia/planta5.jpg);
+  background-image: url(/multimedia/planta5.jpg);
   background-repeat: no-repeat;
   height: 500px;
 }
@@ -127,6 +127,9 @@ section {
 .card_desc {
   color: white;
   margin-top: 5px;
+  font-size: 17px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .card a {
@@ -353,6 +356,9 @@ body h1:hover {
   }
 }
 @media only screen and (max-width: 1080px) {
+  .carousel-caption p {
+    font-size: 28px;
+  }
   iframe {
     width: 700px;
   }
@@ -370,6 +376,9 @@ body h1:hover {
   }
 }
 @media only screen and (max-width: 905px) and (min-width: 689px) {
+  .carousel-caption p {
+    font-size: 25px;
+  }
   .home {
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 500px);
@@ -413,6 +422,14 @@ body h1:hover {
 @media only screen and (max-width: 800px) {
   iframe {
     width: 550px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .about {
+    height: 500px;
+  }
+  .us p {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 730px) {

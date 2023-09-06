@@ -56,6 +56,11 @@ $color2: rgba(0, 0, 0, 0.774);
 }
 
 @media only screen and (max-width: 1080px){
+    .carousel-caption{
+        p{
+            font-size: 28px;
+        }
+    }
     iframe{
         width: 700px;
     }
@@ -75,6 +80,12 @@ $color2: rgba(0, 0, 0, 0.774);
 }
 
 @media only screen and (max-width: 905px) and (min-width: 689px){
+    .carousel-caption{
+        p{
+            font-size: 25px;
+        }
+    }
+
     .home{
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(2, 500px);
@@ -125,6 +136,18 @@ $color2: rgba(0, 0, 0, 0.774);
 @media only screen and (max-width: 800px){
     iframe{
         width: 550px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .about{
+        height: 500px;
+    }
+
+    .us{
+        p{
+            font-size: 20px;
+        }
     }
 }
 
