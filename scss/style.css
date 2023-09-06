@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
-/* font-family: 'Heebo', sans-serif; */
-.navegacion {
-  margin: 10px;
-}
-
-.contacto {
-  font-family: "Heebo", sans-serif !important;
-  margin: 10px;
-}
-.contacto p {
-  font-size: 19px;
-  margin-bottom: 8px;
-}
-
-.redes_sociales {
-  margin: 10px;
-}
-
-footer i {
-  font-size: 20px;
-  margin-left: 38px;
-}
-
-/*pages inicio*/
 .home {
   font-family: "Heebo", sans-serif;
   display: grid;
@@ -60,7 +36,7 @@ footer i {
 
 .about {
   border: 2px solid black;
-  background-image: url(/multimedia/planta5.jpg);
+  background-image: url(../multimedia/planta5.jpg);
   background-repeat: no-repeat;
   height: 500px;
 }
@@ -72,6 +48,29 @@ footer i {
   background-color: rgba(0, 0, 0, 0.829);
 }
 
+.navegacion {
+  margin: 10px;
+}
+
+.contacto {
+  font-family: "Heebo", sans-serif !important;
+  margin: 10px;
+}
+.contacto p {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.redes_sociales {
+  margin: 10px;
+}
+
+footer i {
+  font-size: 20px;
+  margin-left: 38px;
+}
+
+/*pages inicio*/
 section {
   display: flex;
   justify-content: space-evenly;
