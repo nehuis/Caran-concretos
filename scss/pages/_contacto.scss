@@ -9,8 +9,14 @@ form{
     font-weight: 600;
 }
 .mapa{
-    margin: 20px 20px 40px 20px;
+    margin-bottom: 20px;
     text-align: center;
+
+    p{
+        margin-right: 10px;
+        text-align: center;
+        color: black;
+    }
 }
 iframe{
     width: 1000px;

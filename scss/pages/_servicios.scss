@@ -31,10 +31,15 @@ section{
     background-image: url(../multimedia/movimiento\ de\ suelo\ 2.jpg);
 }
 .card_title{
-    font-size: 19px;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 600;
     padding: 10px;
     color: white;
     background-color: #333;
+}
+.card_title:hover{
+    color: white;
 }
 .card_desc{
     color: white;
@@ -48,4 +53,7 @@ section{
     width: 110px;
     margin-left: 93px;
     border-radius: 10px;
+}
+.card a:hover{
+    color: black;
 }

@@ -8,6 +8,10 @@
   font-family: "Heebo", sans-serif !important;
   margin: 10px;
 }
+.contacto p {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
 
 .redes_sociales {
   margin: 10px;
@@ -15,7 +19,7 @@
 
 footer i {
   font-size: 20px;
-  margin-left: 33px;
+  margin-left: 38px;
 }
 
 /*pages inicio*/
@@ -35,16 +39,18 @@ footer i {
   font-size: 20px;
 }
 .home .img1 {
-  background-image: url(../multimedia/planta.jpg);
+  background-image: url(/multimedia/planta\ \(1\).jpg);
+  background-position: -750px;
 }
 .home .img2 {
   background-image: url(../multimedia/descarga2.jpg);
 }
 .home .img3 {
-  background-image: url(../multimedia/movimiento\ de\ suelo.jpg);
+  background-image: url(/multimedia/movimiento\ de\ suelo\ \(1\).jpg);
+  background-position: -105px;
 }
 .home .img4 {
-  background-image: url(../multimedia/planta4.png);
+  background-image: url(/multimedia/planta4.jpg);
 }
 
 .carousel-caption {
@@ -54,7 +60,7 @@ footer i {
 
 .about {
   border: 2px solid black;
-  background-image: url(/multimedia/planta5.jpg);
+  background-image: url(multimedia/planta5.jpg);
   background-repeat: no-repeat;
   height: 500px;
 }
@@ -106,10 +112,16 @@ section {
 }
 
 .card_title {
-  font-size: 19px;
+  margin: 0px;
+  font-size: 17px;
+  font-weight: 600;
   padding: 10px;
   color: white;
   background-color: #333;
+}
+
+.card_title:hover {
+  color: white;
 }
 
 .card_desc {
@@ -125,6 +137,17 @@ section {
   width: 110px;
   margin-left: 93px;
   border-radius: 10px;
+}
+
+.card a:hover {
+  color: black;
+}
+
+p {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 8px;
 }
 
 .clients {
@@ -177,8 +200,13 @@ form {
 }
 
 .mapa {
-  margin: 20px 20px 40px 20px;
+  margin-bottom: 20px;
   text-align: center;
+}
+.mapa p {
+  margin-right: 10px;
+  text-align: center;
+  color: black;
 }
 
 iframe {
@@ -240,12 +268,11 @@ footer .container__footer .logo1 img {
   height: 160px;
   margin-bottom: 10px;
 }
-footer .container__footer h4 {
-  font-size: 23px !important;
+footer .container__footer h2 {
+  font-size: 25px !important;
 }
-footer .container__footer h5 {
-  font-size: 18px !important;
-  margin-top: 12px;
+footer .container__footer p {
+  text-align: left;
 }
 
 body {
@@ -254,31 +281,12 @@ body {
   font-family: "Heebo", sans-serif;
 }
 body h1 {
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-  font-size: 30px !important;
-}
-body h6 {
-  font-size: 20px !important;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  color: black;
-}
-body h3 {
-  color: white;
-  text-align: center;
-  font-size: larger;
-  font-weight: 650;
-}
-body h2 {
   margin: 20px 10px 10px 10px;
   color: black;
   text-align: center;
+  font-size: 35px;
 }
-body h2:hover {
+body h1:hover {
   color: rgb(2, 57, 128);
 }
 
@@ -368,10 +376,11 @@ body h2:hover {
   }
   .home h1 {
     font-size: 30px;
-  }
-  .home h2 {
-    color: white;
     background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+  }
+  .home .img1 {
+    background-position: center;
   }
   .home .img3 {
     background-position: bottom;
@@ -425,6 +434,10 @@ body h2:hover {
   }
 }
 @media only screen and (max-width: 688px) {
+  h1 {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+  }
   .contacto {
     content-visibility: hidden;
   }
@@ -435,7 +448,11 @@ body h2:hover {
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 500px);
   }
-  .home h2 {
+  .home .img3 {
+    background-position: center;
+  }
+  .home h1 {
+    font-size: 27px;
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
   }
@@ -450,8 +467,17 @@ body h2:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 200px);
   }
+  .home .img1 {
+    background-position: center;
+  }
   .home .img3 {
     background-image: url(../multimedia/obra.jpg);
+  }
+  .navegacion {
+    content-visibility: hidden;
+  }
+  .redes_sociales {
+    margin-top: 40px;
   }
 }
 @media only screen and (max-width: 575px) and (min-width: 320px) {
@@ -506,22 +532,20 @@ body h2:hover {
   }
 }
 @media only screen and (max-width: 496px) {
-  .navegacion {
-    content-visibility: hidden;
-  }
   .redes_sociales {
     margin-top: 45px;
     margin-right: 20px;
-  }
-  h2 {
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.774);
   }
 }
 @media only screen and (max-width: 480px) {
   .about {
     background-position: left;
     height: 570px;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .redes_sociales {
+    margin: auto;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -556,15 +580,18 @@ body h2:hover {
   .vw_truck {
     height: 750px;
   }
+  .redes_sociales {
+    margin: 45px 120px 40px 5px;
+  }
 }
 @media only screen and (max-width: 406px) {
   .redes_sociales {
-    margin: 45px 130px 40px 5px;
+    margin: 45px 110px 40px 5px;
   }
 }
 @media only screen and (max-width: 396px) {
   .redes_sociales {
-    margin-right: 120px;
+    margin-right: 100px;
     margin-top: 40px;
   }
 }
@@ -575,7 +602,7 @@ body h2:hover {
 }
 @media only screen and (max-width: 386px) {
   .redes_sociales {
-    margin-right: 110px;
+    margin-right: 95px;
     margin-top: 40px;
   }
 }
@@ -590,6 +617,9 @@ body h2:hover {
   .vw_truck {
     height: 850px;
     background-position: center;
+  }
+  p {
+    font-size: 27px;
   }
 }
 @media only screen and (max-width: 355px) and (min-width: 320px) {
