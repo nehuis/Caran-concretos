@@ -16,7 +16,7 @@
 }
 .home .img1 {
   background-image: url(../multimedia/planta.jpg);
-  background-position: -400px;
+  background-position: -650px;
 }
 .home .img2 {
   background-image: url(../multimedia/descarga2.jpg);
@@ -26,7 +26,7 @@
   background-position: -105px;
 }
 .home .img4 {
-  background-image: url(../multimedia/planta4.jpg);
+  background-image: url(../multimedia/planta4.png);
 }
 
 .carousel-caption {
